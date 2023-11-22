@@ -18,10 +18,17 @@
     <!-- //heading -->
     <main id="motion-app">
         <!-- Add the team name div here -->
-        <div class="team-name">
-            <h1>Whiplash</h1>
-        </div>
-
+        <div class="whiplash">
+            <span style="--i:1">W</span>
+            <span style="--i:2">H</span>
+            <span style="--i:3">I</span>
+            <span style="--i:4">P</span>
+            <span style="--i:5">L</span>
+            <span style="--i:6">A</span>
+            <span style="--i:7">S</span>
+            <span style="--i:8">H</span>
+         
+           </div>
            
 
 
@@ -38,7 +45,7 @@
                 <label class="form-switch">
                 <input type="checkbox" id="webcam-switch">
                 <i></i> 
-                <span id="webcam-caption">Click to Start Webcam</span>
+                <span id="webcam-caption">Click to Start Drumming!!</span>
                 </label>                        
         </div>
         <div id="errorMsg" class="col-12 alert-danger d-none">
@@ -49,21 +56,21 @@
         <div class="drum-background">
             <div class="row row-top">
                 <div class="col-6 col-sm-3">
-                    <img src="images/cymbal.png">
+                    <img src="images/cymbals2.png">
                 </div>
                 <div class="col-6 col-sm-3 offset-sm-6 d-none d-sm-inline">
-                    <img src="images/hi-hat.png">
+                    <img src="images/hit hat3.png">
                 </div>
             </div>
             <div class="row row-bottom">
                 <div class="col-4 p-sm-3 p-0 d-none d-sm-inline">
-                    <img src="images/Floor-Tom.png">
+                    <img src="images/kickk.png">
                 </div>
                 <div class="col-5 p-sm-3 p-0">
-                    <img src="images/Bass-Drum.png">
+                    <img src="images/kickk.png">
                 </div>
                 <div class="col-3 p-sm-3 p-0 d-none d-sm-inline">
-                    <img src="images/Snare.png">
+                    <img src="images/kickk.png">
                 </div>
             </div>
         </div>
@@ -73,34 +80,34 @@
                     <video id="webcam" autoplay playsinline width="640" height="480"></video>
                     <canvas id="canvas-source" width="640" height="480"></canvas>
                     <div class="motion-cam">
-                        <div class="motion-cam-title">Motion Cam</div>
+                        <!-- <div class="motion-cam-title">Motion Cam</div> -->
                         <canvas id="canvas-blended" width="640" height="480"></canvas>
                     </div>
                 </div>
                 <div class="drum-container">
                     <div class="row row-top">
                         <div class="col-6 col-sm-3">
-                            <img class="virtual-drum" src="images/cymbal.png" name="crash" vd-id='0'>
+                            <img class="virtual-drum" src="images/cymbals2.png" name="crash" vd-id='0'>
                         </div>
                         <div class="col-6 col-sm-3 offset-sm-6 d-none d-sm-inline">
-                            <img class="virtual-drum" src="images/hi-hat.png" name="hi-hat" vd-id='1'>
+                            <img class="virtual-drum" src="images/hit hat3.png" name="hi-hat" vd-id='1'>
                         </div>
                     </div>
                     <div class="row row-bottom">
                         <div class="col-4 p-sm-3 p-0 d-none d-sm-inline">
-                            <img class="virtual-drum" src="images/Floor-Tom.png" name="floor-tom" vd-id='2'>
+                            <img class="virtual-drum" src="images/kickk.png" name="floor-tom" vd-id='2'>
                             <div class="spinner-grow text-primary d-none" role="status" id="floor-tom-glowing">
                                 <span class="sr-only">Loading...</span>
                             </div>
                         </div>
                         <div class="col-5 p-sm-3 p-0">
-                            <img class="virtual-drum" src="images/Bass-Drum.png" name="kick" vd-id='3'>
+                            <img class="virtual-drum" src="images/kickk.png" name="kick" vd-id='3'>
                             <div class="spinner-grow text-primary d-none" role="status" id="kick-glowing">
                                 <span class="sr-only">Loading...</span>
                             </div>
                         </div>
                         <div class="col-3 p-sm-3 p-0 d-none d-sm-inline">
-                            <img class="virtual-drum" src="images/Snare.png" name="snare" vd-id='4'>
+                            <img class="virtual-drum" src="images/kickk.png" name="snare" vd-id='4'>
                             <div class="spinner-grow text-primary d-none" role="status" id="snare-glowing">
                                 <span class="sr-only">Loading...</span>
                             </div>
